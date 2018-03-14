@@ -8,7 +8,7 @@ class Comments extends React.Component {
                 <div id="comments">
                     <p className="nopassword">This post is password protected. Enter the password to view any comments.</p>
                 </div><!-- #comments -->
-            )
+            );
         }
         let titleString = 'One Response to ';
         if (this.props.post.commentsNumber > 1) {
@@ -21,5 +21,5 @@ class Comments extends React.Component {
                     {this.props.post.comments}
                 </ol>
             </div><!-- #comments -->
-        )
+        );
      }
